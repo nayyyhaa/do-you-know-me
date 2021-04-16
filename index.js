@@ -1,6 +1,6 @@
 let readlineSysnc = require('readline-sync');
 const chalk = require('chalk');
-let name = readlineSysnc.question('wo are yu?\n');
+let name = readlineSysnc.question('Enter your name\n');
 let score = 0;
 
 // data of high score
@@ -43,7 +43,7 @@ questions = [
 		answer: 'Accenture'
 	},
 	{
-		question: 'Where is neha based on?',
+		question: "What's her birth place?",
 		answer: 'agra'
 	}
 ];
